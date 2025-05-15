@@ -13,6 +13,7 @@
                 New card
             </button>
         </div> 
+        <Tab />
         <div class="card container">
             
             <div>
@@ -34,6 +35,7 @@ import Tranactions from './Tranactions.vue';
 import Wigits from './wigits.vue';
 import Modal from './Modal.vue';
 import CardDetails from './CardDetails.vue';
+import Tab from './Tab.vue';
 import { Card } from './type';
 import { addCard, freezeCard, getCards } from '../service/api';
 
@@ -157,6 +159,7 @@ async function freeze(){
 .container {
     display: flex;
     gap: 98px;
+    margin-top: 12px;
  }
 
 </style>
